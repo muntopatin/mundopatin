@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mundopatin/static/css/main.8afce09e.chunk.css",
-    "main.js": "/mundopatin/static/js/main.f8631d43.chunk.js",
-    "main.js.map": "/mundopatin/static/js/main.f8631d43.chunk.js.map",
+    "main.js": "/mundopatin/static/js/main.28db6ed6.chunk.js",
+    "main.js.map": "/mundopatin/static/js/main.28db6ed6.chunk.js.map",
     "runtime-main.js": "/mundopatin/static/js/runtime-main.a187aecd.js",
     "runtime-main.js.map": "/mundopatin/static/js/runtime-main.a187aecd.js.map",
     "static/css/2.af3c1da9.chunk.css": "/mundopatin/static/css/2.af3c1da9.chunk.css",
     "static/js/2.46c2c88f.chunk.js": "/mundopatin/static/js/2.46c2c88f.chunk.js",
     "static/js/2.46c2c88f.chunk.js.map": "/mundopatin/static/js/2.46c2c88f.chunk.js.map",
     "index.html": "/mundopatin/index.html",
-    "precache-manifest.9802064a6429e42821db066d2f333130.js": "/mundopatin/precache-manifest.9802064a6429e42821db066d2f333130.js",
+    "precache-manifest.517a1b0102555ca76e5d52674712a6b8.js": "/mundopatin/precache-manifest.517a1b0102555ca76e5d52674712a6b8.js",
     "service-worker.js": "/mundopatin/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/mundopatin/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.8afce09e.chunk.css.map": "/mundopatin/static/css/main.8afce09e.chunk.css.map",
@@ -25,6 +25,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.46c2c88f.chunk.js",
     "static/css/main.8afce09e.chunk.css",
-    "static/js/main.f8631d43.chunk.js"
+    "static/js/main.28db6ed6.chunk.js"
   ]
 }

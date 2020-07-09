@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mundopatin/precache-manifest.9802064a6429e42821db066d2f333130.js"
+  "/mundopatin/precache-manifest.517a1b0102555ca76e5d52674712a6b8.js"
 );
 
 self.addEventListener('message', (event) => {

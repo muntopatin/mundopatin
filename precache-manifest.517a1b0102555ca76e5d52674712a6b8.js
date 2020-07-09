@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bad0d1af88275ac818084ef9da87859a",
+    "revision": "c2471b9e6c95cc83a08854a8dde195dc",
     "url": "/mundopatin/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mundopatin/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "25bbc9b9ef1d0bff130f",
+    "revision": "a637f09aad112dd18ae7",
     "url": "/mundopatin/static/css/main.8afce09e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mundopatin/static/js/2.46c2c88f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "25bbc9b9ef1d0bff130f",
-    "url": "/mundopatin/static/js/main.f8631d43.chunk.js"
+    "revision": "a637f09aad112dd18ae7",
+    "url": "/mundopatin/static/js/main.28db6ed6.chunk.js"
   },
   {
     "revision": "5bd58716c0edf8c45e99",
