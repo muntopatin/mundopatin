@@ -1,0 +1,301 @@
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue:#186896;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+
+}
+
+body{
+  font-family:  'Oswald', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title{
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue{
+   color: var(--mainBlue);
+}
+
+.text-bright{
+   color: var(--lightBlue);
+}
+
+.btn-black{
+   background: transparent;
+   text-transform: capitalize;
+   font-size: 0.8rem !important;
+   color: var(--mainDark);
+   border-radius:0 !important;
+   border:0.1rem solid var(--mainDark)!important;
+}
+
+.btn-black:hover{
+  background:var(--mainDark)!important;
+  color:var(--mainWhite)!important;
+}
+
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainBlack);
+  background: var(--primaryColor);
+  padding: 0.4rem 0.9rem;
+  border: 3px solid var(--primaryColor);
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background: transparent;
+  color: var(--primaryColor);
+}
+
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+
+}
+/* Hero */
+.defaultHero,
+.productosHero {
+  min-height: calc(100vh - 66px);
+  background: url("/img/defaultBcg.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* End of Hero */
+
+/* Banner */
+.banner {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--mainWhite);
+  padding: 2rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  font-family: Tahoma, sans-serif;
+}
+.banner h1 {
+  font-size: 2.5rem;
+}
+.banner div {
+  width: 10rem;
+  height: 5px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* AQUI COMIENZA EL CUERPO DE FOTOS */
+@media screen and (min-width: 576px) {
+  .banner {
+    padding: 2rem 3rem;
+  }
+  .banner h1 {
+    font-size: 3rem;
+  }
+  .nav-link {
+    width: 100%;
+    display: block
+  }
+}
+@media screen and (min-width: 576px) {
+  .navbar {
+    width: 100%;
+    display: block
+  }
+}
+@media screen and (min-width: 992px) {
+  .banner {
+    padding: 2rem 6rem;
+  }
+  .banner h1 {
+    font-size: 4rem;
+  }
+}
+/* End of Banner */
+
+@media (max-width: 1200px) {
+  .menu li, .img {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu li, .img {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+  }
+}
+
+
+
+
+.contenedor {
+  background: #000;
+  height: 100%;
+  width: 400%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.contenedor .cubos {
+  background: #000;
+  color: #fff;
+  height: 80%;
+  font-size: 10rem;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c1 {
+  animation-name: move;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+img {
+  height: 100%;
+  min-height: auto;
+}
+
+/*ANIMACION*/
+@keyframes move {
+    0% {
+      margin-left: 0;
+    }
+    20% {
+      margin-left: 0;
+    }
+    25% {
+      margin-left: -25%;
+    }
+    40% {
+      margin-left: -25%;
+    }
+    50% {
+      margin-left: -50%;
+    }
+    65% {
+      margin-left: -50%;
+    }
+    75% {
+      margin-left: -75%;
+    }
+    90% {
+      margin-left: -75%;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
+
+/*FOOTER*/
+footer {
+  color: $gray-light;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 32px;
+  background: gray-light;
+  strong {
+    color: var(--lightBlue);
+  }
+  .footer-links {
+    margin-bottom: 12px;
+    a {
+    margin: 0 8px;
+    color: var(--lightBlue);
+    }
+  }
+}
+.social li {
+  width: 35px;
+  height: 35px;
+  line-height: 38px;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  margin: 15px 6px 12px;
+  display: inline-block;
+  padding: 0px;
+}
+.social li a {
+  width: 35px;
+  height: 35px;
+  line-height: 38px;
+  display: block;
+  border-radius: 100%;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+}
+
+/* Fin de Footer*/
+
+
+/*  productos fitler*/
+.filter-container {
+  padding: 5rem 0;
+}
+.filter-form {
+  width: 60vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(202px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 40px;
+}
+.form-group {
+  text-transform: capitalize;
+}
+.form-group label {
+  display: block;
+  letter-spacing: var(--mainSpacing);
+  margin-bottom: 0.5rem;
+}
+.form-control {
+  width: 100%;
+  background: transparent;
+  font-size: 1rem;
+}
+.size-inputs {
+  display: flex;
+}
+.size-input {
+  width: 40%;
+  padding: 0.2rem;
+  border: 1px solid var(--mainBlack);
+  border-radius: 0.3rem;
+  margin-right: 0.3rem;
+}
+.single-extra label {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+  
+
+  
+  
+  
