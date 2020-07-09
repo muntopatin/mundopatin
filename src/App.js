@@ -23,14 +23,15 @@ class App extends Component {
         <React.Fragment>
           <Navbar />
           <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/productlist" component={Productlist} />
-          <Route exact path="/details" component={Details} />
-          <Route exact path="/cart" component={Cart} />
-          <Route exact path="/nosotros" component={Nosotros} />
-          <Route exact path="/galeriaFotos" component={galeriaFotos} />
-          <Route exact path="/Contactos" component={Contactos} />
-          <Route component={Default} />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/mundopatin" component={Home} />
+            <Route exact path="/productlist" component={Productlist} />
+            <Route exact path="/details" component={Details} />
+            <Route exact path="/cart" component={Cart} />
+            <Route exact path="/nosotros" component={Nosotros} />
+            <Route exact path="/galeriaFotos" component={galeriaFotos} />
+            <Route exact path="/Contactos" component={Contactos} />
+            <Route component={Default} />
           </Switch>
           <Modal />
           <Footer />
